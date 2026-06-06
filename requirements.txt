@@ -1,0 +1,12 @@
+# Python packages for the marketing budget optimization project.
+# Install with:  pip install -r requirements.txt
+#
+# NOTE: gurobipy needs a Gurobi license. A free academic license is available
+# at https://www.gurobi.com/academia/ . The size-limited free tier also runs
+# these models (they are small).
+numpy>=1.26
+pandas>=2.0
+matplotlib>=3.7
+gurobipy>=11.0
+# Only needed to open/run the .ipynb notebook (solve.py needs neither):
+jupyter>=1.0

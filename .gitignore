@@ -1,0 +1,22 @@
+# Local-only portfolio mirror
+website/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Claude local settings
+.claude/settings.local.json
+
+# Python artifacts
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Gurobi
+*.log
+gurobi.log
